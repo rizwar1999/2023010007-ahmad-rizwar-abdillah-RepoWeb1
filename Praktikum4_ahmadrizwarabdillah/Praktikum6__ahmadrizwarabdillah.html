@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Polibang</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-columns: 3fr 1fr;
+            grid-template-areas: 
+                "logo logo"
+                "nav nav"
+                "content sidebar"
+                "footer footer";
+            gap: 10px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .logo {
+            grid-area: logo;
+            background-color: #add8e6;
+            text-align: center;
+            padding: 20px;
+        }
+        .navigation {
+            grid-area: nav;
+            background-color: #87cefa;
+            text-align: center;
+            padding: 10px;
+        }
+        .content {
+            grid-area: content;
+            background-color: #faf3d4;
+            padding: 20px;
+        }
+        .sidebar {
+            grid-area: sidebar;
+            background-color: #ffa500;
+            padding: 20px;
+        }
+        .footer {
+            grid-area: footer;
+            background-color: #d3d3d3;
+            text-align: center;
+            padding: 10px;
+        }
+        .navigation a, .sidebar a {
+            color: #333;
+            text-decoration: none;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+        .navigation a:hover, .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .sidebar a {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <header class="logo">
+            <h1>Polibang</h1>
+            <p>Program Studi RPL</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="form.html">Pendaftaran</a>
+        </nav>
+
+        <!-- Content -->
+        <section class="content">
+            <h2>Visi dan Misi</h2>
+            <p>Visi: Menjadi program studi yang unggul dalam bidang Rekayasa Perangkat Lunak.</p>
+            <p>Misi: Menyediakan pendidikan berkualitas, melakukan penelitian, dan berkontribusi pada masyarakat.</p>
+            <h2>Nama Dosen</h2>
+            <ul>
+                <li>pak.indra/li>
+                <li>bu shofi</li>
+                <li>pak faiq</li>
+                <li>pak kresna</li>
+            </ul>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Teman Kelas</h3>
+            <a href="teman1.html">amanda</a>
+            <a href="teman2.html">bagos</a>
+            <a href="teman3.html">pirin</a>
+            <a href="teman4.html">hanip</a>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Logo kecil | Dibuat oleh rizwar</p>
+            <p>Alamat Institusi: Politeknik balekambang</p>
+        </footer>
+    </div>
+
+</body>
+</html>
