@@ -1,0 +1,62 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial */
+    background-color: #f0f0f0; /* Warna latar belakang halaman */
+    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center; /* Memusatkan konten secara vertikal */
+    height: 100vh; /* Mengatur tinggi halaman 100% dari viewport */
+    margin: 0; /* Menghapus margin default */
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    padding: 20px; /* Jarak dalam kontainer */
+    border-radius: 8px; /* Sudut kontainer membulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    width: 300px; /* Lebar kontainer */
+    text-align: center; /* Teks dalam kontainer rata tengah */
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 20px; /* Ukuran font judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+/* Gaya untuk label */
+label {
+    display: block; /* Membuat label sebagai blok */
+    margin-top: 10px; /* Jarak atas label */
+}
+
+/* Gaya untuk input */
+input {
+    width: 100%; /* Lebar input 100% dari kontainer */
+    padding: 8px; /* Jarak dalam input */
+    margin-top: 5px; /* Jarak atas input */
+    box-sizing: border-box; /* Menghitung padding dalam lebar */
+}
+
+/* Gaya untuk tombol */
+button {
+    margin-top: 20px; /* Jarak atas tombol */
+    padding: 10px 15px; /* Jarak dalam tombol */
+    background-color: #28a745; /* Warna latar tombol hijau */
+    color: #ffffff; /* Warna teks tombol putih */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Sudut tombol membulat */
+    cursor: pointer; /* Menunjukkan pointer saat di-hover */
+}
+
+/* Gaya untuk tombol saat di-hover */
+button:hover {
+    background-color: #218838; /* Warna latar tombol saat di-hover */
+}
+
+/* Gaya untuk elemen hasil */
+#result {
+    margin-top: 20px; /* Jarak atas elemen hasil */
+    font-weight: bold; /* Teks hasil tebal */
+}

@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    align-items: stretch; /* Default behavior */
+    background-color: red;
+    padding: 10px;
+    gap: 10px;
+}
+
+.item {
+    background-color: yellow;
+    padding: 20px;
+    flex: 1; /* Membuat item memiliki lebar yang sama */
+    text-align: center;
+    border: 2px solid black;
+}

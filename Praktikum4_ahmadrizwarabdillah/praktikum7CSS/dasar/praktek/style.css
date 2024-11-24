@@ -1,0 +1,113 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #00b3b3;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-left: auto;
+}
+
+.logo {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+/* Main content styling */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.rounded-aside {
+    width: 25%;
+    background-color: #e6e6e6;
+    padding: 15px;
+    margin-right: 20px;
+    border-top-left-radius: 30px; /* More curve on top-left corner if needed */
+    overflow: hidden; /* Ensures content stays within the rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px; /* Centers the logo and adds space below */
+    width: 80%; /* Adjust width as needed */
+    height: auto;
+}
+
+/* Additional styling for the list */
+aside h2 {
+    background-color: #003366; /* Dark blue background for the header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0; /* No margin at the top, space below */
+}
+
+aside ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+aside ul li {
+    margin: 5px 0;
+    border-bottom: 1px dotted #999; /* Adds a dotted line for each list item */
+}
+
+
+section {
+    width: 75%;
+}
+
+/* Gallery images */
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-img {
+    width: 100px; /* Adjust the size of the gallery images */
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}

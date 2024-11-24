@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Mengatur karakter encoding halaman dan memastikan kompatibilitas dengan browser modern -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Syarat Pengajuan Pinjaman</title>
+    <!-- Menghubungkan file CSS eksternal untuk gaya tampilan -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Kontainer utama untuk mengatur layout dan gaya konten -->
+    <div class="container">
+        <h1>Cek Syarat Pengajuan Pinjaman</h1>
+        <!-- Formulir untuk menerima input dari pengguna -->
+        <form id="loanForm">
+            <!-- Label dan input untuk umur pengguna -->
+            <label for="age">Umur:</label>
+            <input type="number" id="age" name="age" required>
+            <!-- Label dan input untuk pendapatan bulanan pengguna -->
+            <label for="income">Pendapatan Bulanan (Rp):</label>
+            <input type="number" id="income" name="income" required>
+            <!-- Tombol untuk memeriksa kelayakan -->
+            <button type="button" onclick="checkEligibility()">Cek Kelayakan</button>
+        </form>
+        <!-- Elemen untuk menampilkan hasil kelayakan -->
+        <p id="result"></p>
+    </div>
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
