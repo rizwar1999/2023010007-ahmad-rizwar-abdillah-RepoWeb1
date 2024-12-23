@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="image/heade.png" alt="Logo">
+    </header>
+    <nav>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="konten.html">Konten</a>
+            <a href="picture.html">Picture</a>
+            <a href="bebas.html">hobi</a>
+        </div>
+        <button id="login-btn">Login</button>
+    </nav>
+    <div class="content">
+        <h2>Selamat Datang di Website Utama saya</h2>
+        <p>
+            Terima kasih telah mengunjungi halaman saya. Di sini, saya berbagi berbagai konten yang mencerminkan minat dan perjalanan saya dalam dunia teknologi, pemrograman, dan berbagai hal lainnya
+        </p>
+    </div>
+    <footer>
+        <img src="image/plbg.png" alt="Logo Polibang">
+        <p>© 2024 Ahmad Rizwar Abdillah|20230100007|politeknik balekambang</p>
+    </footer>
+    <div class="popup-overlay" id="popup-overlay"></div>
+    <div class="popup" id="popup">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <button id="close-popup">Close</button>
+    </div>
+</body>
+</html>
